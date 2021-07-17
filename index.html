@@ -9,18 +9,24 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <div id="header">
-      <img id="header-img" src="https://5.imimg.com/data5/NT/UC/WR/SELLER-82975943/samsung-galaxy-a7-a750-mobile-phone-500x500.jpg">
-      <h1 id="header">The best phone in the world
-
+      
+      <div id="flexbox">
         <nav id="nav-bar">
           <a class="nav-link" href="#specs">Specification</a>
           <a class="nav-link" href="#colours">Available Colours</a>
           <a class="nav-link" href="#more">Other Samsung Phones</a>
         </nav>
+      </div>
+
+    
+
+
+      <img id="header-img" src="https://5.imimg.com/data5/NT/UC/WR/SELLER-82975943/samsung-galaxy-a7-a750-mobile-phone-500x500.jpg">
+      <h1 id="header">The best phone in the world
 
       </h1>
     </div>
-    <iframe width="800" height="500" src="https://www.youtube.com/embed/VI8gILEDGjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id="video" width="800" height="500" src="https://www.youtube.com/embed/VI8gILEDGjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <div id="specs">
       <h4>Specifications</h4>
@@ -54,8 +60,8 @@
     </div>
 
     <form id="form" method="POST" action="https://www.freecodecamp.com/email-submit">
-      <input type="email" name="email" placeholder=" enter email here">
-      <input type="submit" name="Submit">
+      <input id="email" type="email" name="email" placeholder=" enter email here">
+      <input id="submit" type="submit" name="Submit">
     </form>
   
 

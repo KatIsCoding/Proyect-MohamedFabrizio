@@ -1,14 +1,18 @@
-#header nav{
+#flexbox{
+    display: flexbox;
     position:fixed;
     width: 100%;
     top: 0;
     left: 0;
     padding: 1em;
     background-color: black;
-    
     text-align: right;
     
 }
+#flexbox>div{
+    background-color: aqua;
+}
+
 #header a{
     background-color: gray;
     text-decoration: none;
