@@ -1,0 +1,22 @@
+#header nav{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    background-color: black;
+    
+    text-align: right;
+    
+}
+#header a{
+    background-color: gray;
+    text-decoration: none;
+    color: white;
+}
+
+#header{
+    text-size-adjust: 30px;
+    text-align: center;
+}
+
