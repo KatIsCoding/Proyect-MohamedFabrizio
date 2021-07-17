@@ -1,3 +1,9 @@
+body{
+    background-color: gray;
+}
+
+
+
 #flexbox{
     display: flexbox;
     position:fixed;
@@ -9,10 +15,13 @@
     text-align: right;
     
 }
-#flexbox>div{
-    background-color: aqua;
+#video {
+    margin-left: 35%;
 }
-
+img{
+    max-width: 30%;
+    max-height: 30%;
+}
 #header a{
     background-color: gray;
     text-decoration: none;
